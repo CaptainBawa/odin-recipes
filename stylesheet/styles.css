@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;   
 }
-/* header styles */
+/* head styles */
 
 .head-container {
     display: flex;
@@ -16,7 +16,7 @@ body {
     padding: 10px;   
 }
 
-.head, .ancor {
+.head, .anchorr {
     font-size: 20px;
     font-weight: bold;
     color: white;
@@ -40,14 +40,14 @@ img {
 /* main one styles */
 .main-one {
     background-color: bisque;
-    height: ;
     margin-top: -20px;
 }
 
 .cards-one {
     display: flex;
     justify-content: space-between;
-    padding: 10px;   
+    padding: 10px;
+       
 }
 
 .card-column {
@@ -62,6 +62,7 @@ img {
     width: 300px;
     padding-bottom: 10px; 
     color: blue;
+    
  }
 
 .image {
@@ -80,4 +81,53 @@ img {
     text-decoration: underline;
 }
 
- 
+/* main two styles */
+.main-two {
+    display: flex;
+    padding: 10px; 
+    width: 50px;
+    margin-top: 100px;
+}
+
+.card-two { 
+    flex: 1;
+    padding: 10px;
+}
+
+.image-two {
+   height: 200px;
+   width: 350px;
+   padding-bottom: 10px;
+}
+
+.image-two-only {
+    height: 450px;
+    width: 850px;
+}
+
+.card-txt {
+    margin-top: -30px;
+    padding: 10px;
+    width: 600px;
+}
+
+.right-column {
+    border: 1px solid green;
+    border-radius: 10px;  
+}
+
+.one-card {
+    margin-right: 100px;
+}
+
+.left-space {
+    margin-left: 150px;
+}
+
+.right-space {
+    margin-left: 40px;
+}
+
+.little-gap {
+    margin-top: 20px;
+}
