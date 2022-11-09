@@ -32,7 +32,7 @@ body {
 
 img {
     height: auto;
-    width: 350px;  
+    width: 350px; 
 }
 
 /* main one styles */
@@ -63,6 +63,7 @@ img {
 
 .image {
     flex: 1;
+    border-radius: 40px;
 }
 
 #one {
@@ -96,11 +97,13 @@ img {
    height: 200px;
    width: 350px;
    padding-bottom: 10px;
+   border-radius: 80px;
 }
 
 .image-two-only {
     height: 450px;
     width: 780px;
+    border-radius: 40px;
 }
 
 .card-txt {
@@ -154,3 +157,4 @@ img {
 .txt {
     color: black;
 }
+
